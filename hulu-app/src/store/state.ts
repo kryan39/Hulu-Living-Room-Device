@@ -7,12 +7,12 @@ interface FocusPosition {
 
 export const appState: {
     hubData: Hub | null;
-    focusPosition: FocusPosition | null;
-    modal: any;
+    focus: {row: number; tile: number};
+    modal: HTMLElement | null;
     loadedCollections: Map<string, any>;
     } = {
         hubData: null,
-        focusPosition: { row: 0, tile: 0},
+        focus: { row: 0, tile: 0},
         modal: null,
         loadedCollections: new Map()
 }

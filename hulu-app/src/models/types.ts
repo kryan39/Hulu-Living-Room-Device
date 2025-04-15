@@ -1,5 +1,3 @@
-// src/models/types.ts
-
 export interface Hub {
     id: string;
     name: string;
@@ -30,6 +28,7 @@ export interface Hub {
     id: string;
     visuals: Visuals;
     entity_metadata: EntityMetaData
+
   }
   
   export interface Visuals {
@@ -38,12 +37,20 @@ export interface Hub {
     body?: string;
     prompt?: string;
     action_text? : string;
-    artwork: {
+    artwork?: {
       _type: string;
       horizontal_tile?: ArtworkTile;
       vertical_tile?: ArtworkTile;
       vertical_title?: ArtworkTile;
+      detail?: {
+        horizontal?: {
+          hero?: {
+            path: string;
+          };
+        };
       };
+      };
+
   };
   
   export interface EntityMetaData {
@@ -59,14 +66,9 @@ export interface Hub {
   
   export interface ArtworkTile {
     _type: string;
-    artwork_type: string;
-    image: {
+    artwork_type?: string;
+    image?: {
       path: string;
-      accent: {
-        hue: number;
-        classification: string;
-      };
-      image_id: string;
     };
     text?: string;
   }

@@ -6,13 +6,16 @@
     "start": "webpack serve --open",
     "build": "webpack",
     "mode": "development",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ts-node src/tests/test-runner.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/jsdom": "^21.1.7",
+    "jsdom": "^26.1.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5.8.2"
   },
   "dependencies": {
