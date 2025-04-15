@@ -19,7 +19,7 @@ This project uses a hybrid architecture inspired by how Hulu builds  interfaces:
 ### Clone the Repo
 
 ```bash
-git clone https://github.com/your-username/hulu-living-room.git
+git clone https://github.com/kryan39/Hulu-Living-Room-Device.git
 cd hulu-living-room
 cd hulu-app
 
