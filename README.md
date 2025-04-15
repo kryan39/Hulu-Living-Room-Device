@@ -15,6 +15,8 @@ This project uses a hybrid architecture inspired by how Hulu builds  interfaces:
 - Hulu-style UI design
 
 ## Getting Started
+- This is intended to be run in Google Chrome
+- I suggest using Incognito Mode to run it locally 
 
 ### Clone the Repo
 
