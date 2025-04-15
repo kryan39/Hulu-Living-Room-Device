@@ -14,17 +14,6 @@ This project uses a hybrid architecture inspired by how Hulu builds  interfaces:
 - Visual aesthetics on navigation that mimcs Hulu
 - Hulu-style UI design
 
-## Project Structure
-
-src/
-├── api/
-├── components/
-├── models/
-├── styles/
-├── utils/
-├── index.ts
-├── main.ts
-
 ## Getting Started
 
 ### Clone the Repo
