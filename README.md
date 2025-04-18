@@ -4,7 +4,7 @@
 > A keyboard only Hulu-style UI
 
 
-## 🧠 Architecture Overview
+## Architecture Overview
 
 This project uses a hybrid architecture inspired by how Hulu builds  interfaces:
 
